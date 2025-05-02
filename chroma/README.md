@@ -13,6 +13,12 @@ A `db/` folder is used to persist the chroma database files.
 
 # Setup 
 
+## Packages
+chromadb
+python-dotenv
+langchain_community
+pypdf
+
 ## Virtual Env
 Create a venv:
 `uv venv --python=python3.11`
