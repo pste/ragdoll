@@ -1,6 +1,6 @@
 # RAGDOLL
 Building a RAG on a monolithic repo.
-RAGDOLL stands for **RAG** on **DO**cker with local **LL**m (and surely recall the Aerosmith [song](https://www.youtube.com/watch?v=mrEC8xGc3ZM))
+RAGDOLL stands for **RAG** on **DO**cker with local **LL**m (and surely recalls the Aerosmith [song](https://www.youtube.com/watch?v=mrEC8xGc3ZM))
 
 ## Setup
 
