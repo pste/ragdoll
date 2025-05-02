@@ -1,3 +1,7 @@
 .private/
 .venv/
 node_modules/
+chroma/.mounts/
+
+# files
+.env

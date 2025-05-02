@@ -1,5 +1,6 @@
-# The RAG
+# RAGDOLL
 Building a RAG on a monolithic repo.
+RAGDOLL stands for **RAG** on **DO**cker with local **LL**m (and surely recall the Aerosmith [song](https://www.youtube.com/watch?v=mrEC8xGc3ZM))
 
 ## Setup
 
@@ -15,10 +16,10 @@ Furthermore I'm using [uv](https://github.com/astral-sh/uv) as package manager, 
 `curl -LsSf https://astral.sh/uv/install.sh | sh`
 
 ### Virtual Env
-My Python projects run under a venv to avoid mess with local libraries. Please refer to the single project instructions for details.
+Every Python projects runs under a venv to avoid messing with local libraries. Please refer to the single project instructions for details.
 
 ### Local Dev
-
+I'm using a local `.private/` folder that is excluded from the repo and contains env files and build/run scripts.
 
 ## Chroma DB
 The vector store [documentation](chroma/README.md)

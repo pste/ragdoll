@@ -2,8 +2,14 @@
 
 We're building our vector store for RAG on [Chroma](https://www.trychroma.com).
 
-The idea is to build a docker container that starts, read PDF documents from an `pdf/in/` folder, create embeddings from the eventually found document(s) ant move the PDF file(s) into `pdf/docs/`.
-A `db/` folder is used to persist the chroma embeddings database.
+The idea is to build a docker container that:
+- starts
+- reads PDF documents from a `pdf/in/` folder
+- creates Chroma embeddings from the eventually found document(s)
+- persist these embeddings
+- move the PDF file(s) into `pdf/docs/`
+
+A `db/` folder is used to persist the chroma database files.
 
 # Setup 
 
