@@ -5,4 +5,5 @@ RUN pip install uv
 COPY requirements.txt .
 RUN uv pip install -r requirements.txt --system
 
-CMD 
+COPY main.py .
+CMD ["python", "main.py"]
